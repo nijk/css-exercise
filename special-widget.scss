@@ -1,0 +1,17 @@
+.special-widget {
+	background: grey;
+	row: 1;
+ 
+	& > .content--red {
+		background: red;
+	}
+ 
+	&.special-widget__disabled {
+		opacity: 0.3;
+		pointer-events: none;
+	}
+ 
+	&::hover {
+		border-color: blue;
+	}
+}
